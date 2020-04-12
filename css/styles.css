@@ -1,0 +1,249 @@
+/******************************************TAG SELECTORS***************************************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 2.5em;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Cairo', sans-serif;
+  color: #11999E;
+  font-weight: normal;
+}
+
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 15px;
+  width: 7%;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+
+
+/******************************************CLASS SELECTORS***************************************************/
+.top_container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container {
+  margin: 100px 0;
+}
+
+.bottom_container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.profile_img{
+  width: 15%;
+  border-radius: 50%;
+  border-width: medium;
+
+}
+
+.header-pic{
+  width: 7%;
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  border-radius: 50%;
+}
+
+.footer-link:hover{
+  color: #eaf6f6;
+}
+
+.about{
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  right: 400px;
+  top: 20px;
+}
+
+.education{
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  right: 200px;
+  top: 20px;
+}
+
+.about-me-list{
+  font-size: 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+.edu-details{
+  font-size: 20px;
+  text-align: left;
+}
+
+.about-me-image{
+  position: absolute;
+  left: 0;
+  top: 110px;
+  width: 5%;
+  border-radius: 50%;
+}
+.details-title{
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 90px;
+
+}
+
+.education-title{
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 90px;
+}
+
+.edu-title{
+  font-size: 20px;
+}
+
+.institute{
+  font-size: 25px;
+  color: #66bfbf;
+}
+
+.pen-paper-img{
+  width: 50%;
+  position: absolute;
+  right: 0;
+  border-radius: 10%;
+}
+
+.index-page-button{
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  right: 400px;
+  top: 20px;
+}
+
+.education-page-button{
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  right: 170px;
+  top: 20px;
+}
+
+.about-me-page-button{
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  position: absolute;
+  right: 250px;
+  top: 20px;
+}
+
+.upper{
+  width: 100%;
+  height: 300px;
+  background-color: #EAF6F6;
+  font-family: 'Cairo', sans-serif;
+}
+
+.lower{
+  font-family: 'Cairo', sans-serif;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+p{
+  line-height: 2;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skills_1{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.skills_2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.btn {
+	box-shadow: 3px 4px 0 0 #11999e;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:19px;
+	border:2px solid #11cdd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0 3px 1px #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
